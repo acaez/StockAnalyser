@@ -8,28 +8,30 @@ src_path = project_root / "src"
 if str(src_path) not in sys.path:
     sys.path.insert(0, str(src_path))
 
-from datetime import datetime
-from PortfolioManager.analyser import analyzer
-from MenuManager.show import Menu
+from portfolio_manager.analyser import analyze_portfolio
+from menu_manager.display import Menu
 
-def main():
+def main() -> None:
+
     menu = Menu()
-    menu.start()
-    menu.analyse_start()
-    results = analyzer()
-    menu.analyse_end()
+    menu.show_header()
+    menu.show_analysis_start()
+    results = analyze_portfolio()
+    menu.show_analysis_end()
     if results:
-        menu.resume_start()
-        menu.summary(results)
-        menu.resume_end()
+        menu.show_summary_start()
+        menu.show_summary(results)
+        menu.show_summary_end()
     else:
-        menu.error_no_data()
+        menu.show_no_data_error()
 
 if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        print("\n\n👋 Programme interrompu par l'utilisateur")
+        print("\n\n👋 Program interrupted by user")
+        sys.exit(0)
     except Exception as error:
-        print(f"\n❌ Erreur inattendue: {error}")
-        print("💡 Conseil: Vérifiez que yfinance est installé avec 'pip install yfinance'")
+        print(f"\n❌ Unexpected error: {error}")
+        print("💡 Tip: Check that yfinance is installed with 'pip install yfinance'")
+        sys.exit(1)
