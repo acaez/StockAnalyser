@@ -1,0 +1,2 @@
+# basic dependencies
+yfinance>=0.2.0

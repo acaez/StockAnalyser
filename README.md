@@ -24,31 +24,39 @@ python main.py
                       🚀 StockAnalyser                       
 ============================================================
 
-⏰ Analyse du 10/08/2025 à 14:30
+🔍 PORTFOLIO (NAME) ANALYSE 
+⏰ 11/08/2025 [05:06]
 
-🔍 ANALYSE DU PORTEFEUILLE
 /==================================/
-  📡 Récupération de AAPL...
-    ✅ AAPL: $150.25 (+2.1%)
   📡 Récupération de GOOGL...
-    ✅ GOOGL: $125.80 (-1.3%)
+    ✅ GOOGL: $201.42 (+2.5%)
+  📡 Récupération de AAPL...
+    ✅ AAPL: $229.35 (+4.2%)
+  📡 Récupération de META...
+    ✅ META: $769.3 (+1.0%)
+  📡 Récupération de AMZN...
+    ✅ AMZN: $222.69 (-0.2%)
   📡 Récupération de MSFT...
-    ✅ MSFT: $335.40 (+0.8%)
+    ✅ MSFT: $522.04 (+0.2%)
   📡 Récupération de NVDA...
-    ✅ NVDA: $425.10 (+3.2%)
+    ✅ NVDA: $182.7 (+1.1%)
+  📡 Récupération de TSLA...
+    ✅ TSLA: $329.65 (+2.3%)
 /==================================/
 
 ========================= 📊 RÉSUMÉ =========================
-Actions analysées: 4
-En hausse: 3 📈
-En baisse: 1 📉
-Stables: 0 ➡️
-Variation moyenne: +1.20%
+Number of Stocks: 7
+Up: 6 📈
+Down: 1 📉
+Stable: 0 ➡️
+Average Variation: +1.59%
 
-🏆 Meilleure: NVDA (Nvidia) : +3.20%
-📉 Pire: GOOGL (Google) : -1.30%
-=============================================================
+🏆 Best: AAPL (Apple) : +4.24%
+📉 Worst: AMZN (Amazon) : -0.20%
+============================================================
 ✅ Analyse Done !
+
+```
 
 
 

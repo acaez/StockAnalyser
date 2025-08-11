@@ -1,11 +1,7 @@
-import sys
-import os
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 from PortfolioManager.portfolio import DIAMOND
 from DataManager.data import get_stock_price
 
-def portfolio_analyzer():
+def analyzer():
     
     results = []
     
