@@ -1,3 +1,6 @@
+"""
+Menu and display management for the StockAnalyser application.
+"""
 from datetime import datetime
 
 class Menu:

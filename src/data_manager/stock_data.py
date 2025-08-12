@@ -4,6 +4,15 @@ from portfolio_manager.portfolio import DIAMOND
 from config import ANALYSE_CONFIG
 
 def fetch_stock_data(symbol: str):
+    """
+    Fetch real-time stock data and calculate price changes.
+    
+    Parameters:
+    - symbol: Stock ticker symbol (e.g., 'AAPL')
+    
+    Returns:
+    - dict: Stock data with prices, changes, and metadata, or None if failed
+    """
 
     print(f"  📡 Fetching data for {symbol}...")
     try:

@@ -4,11 +4,18 @@ A Python-based stock portfolio analyzer that tracks and analyzes major tech stoc
 ## 🎯 Overview
 StockAnalyser is a command-line tool that fetches current stock prices for a predefined portfolio, calculates daily variations, and provides comprehensive analysis with statistics and insights.
 
-## 📚 how it's work
+## 📚 Documentation
+- [Technical Indicators Documentation](docs/technical_indicators.md) - Comprehensive guide to all implemented indicators
+- [Data Manager Documentation](docs/data_manager.md) - Stock data fetching and management
+- [Portfolio Manager Documentation](docs/portfolio_manager.md) - Portfolio definition and analysis
+- [Configuration Documentation](docs/configuration.md) - Settings and configuration guide
+- [Documentation Folder](docs/) - Complete project documentation
 
-Real-time Data: Fetches live stock prices using Yahoo Finance API
-Daily Analysis: Calculates price changes and percentage variations
-Statistical Summary: Provides comprehensive portfolio statistics
+## 🔧 Features
+- Real-time Data: Fetches live stock prices using Yahoo Finance API
+- Daily Analysis: Calculates price changes and percentage variations
+- Statistical Summary: Provides comprehensive portfolio statistics
+- Technical Analysis: RSI, MACD, Bollinger Bands, Stochastic Oscillator, EMA, SMA
 
 ### Installation
 ```bash

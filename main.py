@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+"""
+StockAnalyser - A Python-based stock portfolio analyzer.
+
+This is the main entry point for the StockAnalyser application that provides
+real-time stock analysis for a predefined portfolio of stocks.
+"""
 
 import sys
 from pathlib import Path
